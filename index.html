@@ -28,8 +28,8 @@ body {
   async function initMap() {
     const { Map3DElement } = await google.maps.importLibrary("maps3d");
     const map = new Map3DElement({
-        center: { lat: 42.75371685807847, lng: 42.13227141171181, altitude: 30 },
-        tilt: 50.64793990040634,
+        center: { lat: 39.75, lng: 40.13, altitude: 30 },
+        tilt: 9,
         heading: 44.480020261589154,
         range: 51618.36056532338,
         language: "TR",
@@ -41,4 +41,5 @@ body {
 }
 initMap();
   </script>
+
 </html>
